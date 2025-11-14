@@ -1,7 +1,28 @@
   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white; /* text visible on dark background */
+    text-align: center;
+
+    /* Background image */
+    background-image: url("https://www.bing.com/th/id/OIP.fp8kNlKj96YBoaDXF_de3QHaEK?w=235&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+    background-size: cover;      /* make it fill the screen */
+    background-position: center; /* center the image */
+    background-attachment: fixed; /* parallax effect */
+}
+
+/* Optional: semi-transparent background for boxes */
+.container .box {
+    background: rgba(0, 0, 0, 0.6); /* dark overlay */
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+  
+  body {
             font-family: Copperplate;
-            background-color: black;
-            color: #ff01ee;
+            background-color: #37425B;
             text-align: center;
             padding: 50px;
             font-size: 25px;
