@@ -1,0 +1,9 @@
+  body {
+    margin: 0;
+    font-family: Lucida console;
+    color: white; /* text visible on dark background */
+    text-align: center;
+    background-color: #37425B;
+    padding: 50px;
+    font-size: 25px;
+  }
