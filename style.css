@@ -14,7 +14,29 @@
     background-attachment: fixed; /* parallax effect */
 }
 
-/* Optional: semi-transparent background for boxes */
+.page-title {
+  font-family: Copperplate Gothic Bold, rgb(255, 0, 251) sans-serif;
+  color: white;
+  font-size: 100px;
+}
+
+.page-title {
+  margin: 0;            /* remove default gap */
+  padding-bottom: 0;    /* no extra space below */
+}
+
+.page-subtitle {
+  margin-top: 0.2cm;      /* exactly 1 cm below the title */
+  margin-bottom: 0;     /* optional: remove extra space below */
+}
+.page-subtitle {
+  font-family: Copperplate Gothic Bold, rgb(255, 0, 251) sans-serif;
+  color: white;
+  font-size: 40px;
+}
+
+
+/*semi-transparent background for boxes */
 .container .box {
     background: rgba(0, 0, 0, 0.6); /* dark overlay */
     margin: 20px;
