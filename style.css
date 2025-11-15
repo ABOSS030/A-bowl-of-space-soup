@@ -78,3 +78,7 @@ ul li a {
   font-weight: bold;
   text-decoration: none; /* optional: remove underline */
 }
+ul li a:hover {
+  text-decoration: underline;
+  color:aqua; /* optional: underline on hover */
+}
