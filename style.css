@@ -73,3 +73,8 @@
         .box button:hover {
             background-color: #d1c4e9;
         }
+ul li a {
+  color: #b7ac3a;   /* orange */
+  font-weight: bold;
+  text-decoration: none; /* optional: remove underline */
+}
