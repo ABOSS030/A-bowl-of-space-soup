@@ -1,11 +1,14 @@
   body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Lucida console;
     color: white; /* text visible on dark background */
     text-align: center;
+    background-color: #37425B;
+    padding: 50px;
+    font-size: 25px;
 
     /* Background image */
-    background-image: url("https://www.bing.com/th/id/OIP.fp8kNlKj96YBoaDXF_de3QHaEK?w=235&h=211&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
+    background-image: url("https://tse3.mm.bing.net/th/id/OIP.j7LApXcILaDuEOHAu9imOgHaE7?cb=ucfimg2&pid=ImgDet&ucfimg=1&w=181&h=120&c=7&dpr=1.5&o=7&rm=3");
     background-size: cover;      /* make it fill the screen */
     background-position: center; /* center the image */
     background-attachment: fixed; /* parallax effect */
@@ -18,15 +21,6 @@
     padding: 20px;
     border-radius: 8px;
 }
-
-  
-  body {
-            font-family: Copperplate;
-            background-color: #37425B;
-            text-align: center;
-            padding: 50px;
-            font-size: 25px;
-        }
 
         .container {
             display: flex;
