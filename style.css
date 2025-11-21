@@ -25,6 +25,7 @@
   padding-bottom: 0;    /* no extra space below */
 }
 
+
 .page-subtitle {
   margin-top: 0.2cm;      /* exactly 1 cm below the title */
   margin-bottom: 0;     /* optional: remove extra space below */
@@ -82,3 +83,15 @@ ul li a:hover {
   text-decoration: underline;
   color:aqua; /* optional: underline on hover */
 }
+
+/* Responsive layout - stack columns on small screens */ 
+
+@media (max-width: 600px) { 
+  .grid-container { 
+    grid-template-columns: 1fr;  /* Single column for small screens */ 
+    grid-template-areas:  
+      "header"  
+      "box"  
+      "container"  
+      "box.container"; 
+  } 
